@@ -150,10 +150,10 @@ const PortfolioSection = () => {
                   </div>
                 </div>
                 <div className="p-8 flex flex-col justify-center">
-                  <h4 className="text-2xl font-bold text-amber-900 mb-4">
+                  <h4 className="text-xl font-bold text-amber-900 mb-4">
                     {projects[currentProject].title}
                   </h4>
-                  <p className="text-amber-700 text-lg mb-6">
+                  <p className="text-amber-700 text-md mb-6">
                     {projects[currentProject].description}
                   </p>
                   <div className="flex items-center gap-4">
@@ -169,13 +169,13 @@ const PortfolioSection = () => {
           {/* Navigation Buttons */}
           <button
             onClick={prevProject}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-amber-900 text-white p-3 rounded-full shadow-lg hover:bg-amber-800 transition-colors"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[#973c007a] text-white p-3 rounded-full shadow-lg hover:bg-amber-800 transition-colors"
           >
             <ChevronLeft size={24} />
           </button>
           <button
             onClick={nextProject}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-amber-900 text-white p-3 rounded-full shadow-lg hover:bg-amber-800 transition-colors"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[#973c007a] text-white p-3 rounded-full shadow-lg hover:bg-amber-800 transition-colors"
           >
             <ChevronRight size={24} />
           </button>
