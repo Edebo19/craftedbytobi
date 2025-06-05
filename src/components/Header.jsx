@@ -20,7 +20,7 @@ const Header = ({ onWhatsAppContact }) => {
             className="flex items-center gap-2"
           >
             <Logo />
-            <h1 className="text-base md:text-3xl font-bold tracking-wide">Crafted by Tobi</h1>
+            <i className="text-base font-bold md:text-3xl font-bold tracking-wide">CraftedByTobi</i>
           </motion.div>
           
           <motion.button
