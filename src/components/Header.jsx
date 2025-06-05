@@ -27,10 +27,11 @@ const Header = ({ onWhatsAppContact }) => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             onClick={onWhatsAppContact}
-            className="bg-green-600 max-md:rounder-[50%] max-md:w-[50px] max-md:h-[50px] cursor-pointer hover:bg-green-700 px-6 py-2 rounded-full flex items-center gap-2 transition-colors"
+            className="bg-green-600 max-md:rounded-[50%] max-md:w-[50px] max-md:h-[50px] cursor-pointer hover:bg-green-700 px-6 py-2 rounded-full flex justify-center items-center gap-2 transition-colors"
           >
-            <MessageCircle size={20} className="max-md:hidden" />
-            <BsWhatsapp size={50} className="md:hidden" />
+            <div className="">
+                <BsWhatsapp size={30}    />
+            </div>
             <p className="max-md:hidden text-[12px] md:text-lg">Contact on WhatsApp</p>
           </motion.button>
         </div>
